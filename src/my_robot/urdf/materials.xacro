@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+
+    <!-- First palette -->
+    <!-- https://coolors.co/fe938c-e6b89c-ead2ac-9cafb7-4281a4 -->
+    <xacro:macro name="material_tulip">
+        <visual>
+            <material>
+                <ambient>${254/255} ${147/255} ${140/255} 1</ambient>
+                <diffuse>${254/255} ${147/255} ${140/255} 1</diffuse>
+                <specular>0.1 0.1 0.1 0.1 1</specular>
+            </material>
+        </visual>
+    </xacro:macro>
+
+    <xacro:macro name="material_pale_gold">
+        <visual>
+            <material>
+                <ambient>${230/255} ${184/255} ${156/255} 1</ambient>
+                <diffuse>${230/255} ${184/255} ${156/255} 1</diffuse>
+                <specular>0.1 0.1 0.1 0.1 1</specular>
+            </material>
+        </visual>
+    </xacro:macro>
+
+    <xacro:macro name="material_desert_sand">
+        <visual>
+            <material>
+                <ambient>${234/255} ${210/255} ${172/255} 1</ambient>
+                <diffuse>${234/255} ${210/255} ${172/255} 1</diffuse>
+                <specular>0.1 0.1 0.1 0.1 1</specular>
+            </material>
+        </visual>
+    </xacro:macro>
+
+    <xacro:macro name="material_pewter_blue">
+        <visual>
+            <material>
+                <ambient>${156/255} ${175/255} ${183/255} 1</ambient>
+                <diffuse>${156/255} ${175/255} ${183/255} 1</diffuse>
+                <specular>0.1 0.1 0.1 0.1 1</specular>
+            </material>
+        </visual>
+    </xacro:macro>
+
+    <xacro:macro name="material_steel_blue">
+        <visual>
+            <material>
+                <ambient>${66/255} ${129/255} ${164/255} 1</ambient>
+                <diffuse>${66/255} ${129/255} ${164/255} 1</diffuse>
+                <specular>0.1 0.1 0.1 0.1 1</specular>
+            </material>
+        </visual>
+    </xacro:macro>
+
+    <!-- Second palette -->
+    <!-- https://coolors.co/5bc0eb-fde74c-9bc53d-e55934-fa7921 -->
+    <xacro:macro name="material_blue_jeans">
+        <visual>
+            <material>
+                <ambient>${91/255} ${192/255} ${235/255} 1</ambient>
+                <diffuse>${91/255} ${192/255} ${235/255} 1</diffuse>
+                <specular>0.1 0.1 0.1 0.1 1</specular>
+            </material>
+        </visual>
+    </xacro:macro>
+
+    <xacro:macro name="material_gargoyle_gas">
+        <visual>
+            <material>
+                <ambient>${253/255} ${231/255} ${76/255} 1</ambient>
+                <diffuse>${253/255} ${231/255} ${76/255} 1</diffuse>
+                <specular>0.1 0.1 0.1 0.1 1</specular>
+            </material>
+        </visual>
+    </xacro:macro>
+
+        <xacro:macro name="material_android_green">
+        <visual>
+            <material>
+                <ambient>${155/255} ${197/255} ${61/255} 1</ambient>
+                <diffuse>${155/255} ${197/255} ${61/255} 1</diffuse>
+                <specular>0.1 0.1 0.1 0.1 1</specular>
+            </material>
+        </visual>
+    </xacro:macro>
+
+        <xacro:macro name="material_flame">
+        <visual>
+            <material>
+                <ambient>${229/255} ${89/255} ${52/255} 1</ambient>
+                <diffuse>${229/255} ${89/255} ${52/255} 1</diffuse>
+                <specular>0.1 0.1 0.1 0.1 1</specular>
+            </material>
+        </visual>
+    </xacro:macro>
+
+    <xacro:macro name="material_princeton_orange">
+        <visual>
+            <material>
+                <ambient>${250/255} ${121/255} ${33/255} 1</ambient>
+                <diffuse>${250/255} ${121/255} ${33/255} 1</diffuse>
+                <specular>0.1 0.1 0.1 0.1 1</specular>
+            </material>
+        </visual>
+    </xacro:macro>
+
+
+</robot>
