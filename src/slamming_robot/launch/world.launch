@@ -11,10 +11,10 @@
     <arg name="yaw" default="-1.57"/>
 
     <!-- Launch other relevant files -->
-    <include file="$(find my_robot)/launch/robot_description.launch"/>
+    <include file="$(find slamming_robot)/launch/robot_description.launch"/>
 
     <!-- World file -->
-    <arg name="world_file" default="$(find my_robot)/worlds/arena.world"/>
+    <arg name="world_file" default="$(find slamming_robot)/worlds/arena.world"/>
 
     <!-- Launch Gazebo world -->
     <include file="$(find gazebo_ros)/launch/empty_world.launch">
@@ -28,13 +28,13 @@
     <!-- Spawn my robot -->
     <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model"
           respawn="false" output="screen"
-          args="-urdf -param robot_description -model my_robot
+          args="-urdf -param robot_description -model slamming_robot
                 -x $(arg x) -y $(arg y) -z $(arg z)
                 -R $(arg roll) -P $(arg pitch) -Y $(arg yaw)"
     />
 
     <node name="rviz" pkg="rviz" type="rviz" respawn="false"
-          args="-d $(find my_robot)/rviz/rviz_config.rviz"
+          args="-d $(find slamming_robot)/rviz/rviz_config.rviz"
     />
 
 

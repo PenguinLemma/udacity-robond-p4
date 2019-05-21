@@ -8,8 +8,8 @@ source devel/setup.sh
 # due to: https://github.com/ros-visualization/rviz/issues/1249
 export LC_NUMERIC="en_US.UTF-8"
 # Add path where models in the world can be found
-export GAZEBO_MODEL_PATH=$PWD/src/my_robot/worlds/model:~/.gazebo/models:$GAZEBO_MODEL_PATH
+export GAZEBO_MODEL_PATH=$PWD/src/slamming_robot/worlds/model:~/.gazebo/models:$GAZEBO_MODEL_PATH
 # Add path where map will be saved
-export MY_ROBOT_MAP_PATH=$PWD/src/my_robot/maps
+export SLAM_MAP_PATH=$PWD/src/slamming_robot/maps
 # if map folder doesn't exist, we create it
-[ -d $MY_ROBOT_MAP_PATH ] || mkdir $MY_ROBOT_MAP_PATH
+[ -d $SLAM_MAP_PATH ] || mkdir $SLAM_MAP_PATH

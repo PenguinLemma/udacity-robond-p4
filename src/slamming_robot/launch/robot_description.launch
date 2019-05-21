@@ -4,7 +4,7 @@
     <!-- Send urdf to param server -->
     <param
         name="robot_description"
-        command="$(find xacro)/xacro --inorder '$(find my_robot)/urdf/my_robot.xacro'"
+        command="$(find xacro)/xacro --inorder '$(find slamming_robot)/urdf/slamming_robot.xacro'"
     />
 
     <!-- Send fake joint values -->

@@ -41,7 +41,7 @@
             <wheelSeparation>${2*base_radius + 2*wheel_length}</wheelSeparation>
             <wheelDiameter>${2*wheel_radius}</wheelDiameter>
             <torque>10</torque>
-            <commandTopic>cmd_vel</commandTopic>
+            <commandTopic>slamming_robot/cmd_vel</commandTopic>
             <odometryTopic>odom</odometryTopic>
             <odometryFrame>odom</odometryFrame>
             <robotBaseFrame>robot_footprint</robotBaseFrame>
@@ -133,7 +133,7 @@
                 </noise>
             </ray>
             <plugin name="gazebo_ros_head_hokuyo_controller" filename="libgazebo_ros_laser.so">
-                <topicName>/my_robot/laser/scan</topicName>
+                <topicName>/slamming_robot/laser/scan</topicName>
                 <frameName>hokuyo</frameName>
             </plugin>
         </sensor>
