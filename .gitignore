@@ -8,3 +8,7 @@ devel/*
 
 # Ignore the catkin workspace file
 .catkin_workspace
+
+# Ignore the maps directory and its contents
+src/my_robot/maps/
+src/my_robot/maps/*
