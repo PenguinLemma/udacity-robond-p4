@@ -10,6 +10,6 @@ export LC_NUMERIC="en_US.UTF-8"
 # Add path where models in the world can be found
 export GAZEBO_MODEL_PATH=$PWD/src/my_robot/worlds/model:~/.gazebo/models:$GAZEBO_MODEL_PATH
 # Add path where map will be saved
-export MY_ROBOR_MAP_PATH=$PWD/map
+export MY_ROBOT_MAP_PATH=$PWD/map
 # if map folder doesn't exist, we create it
-[ -d $MY_ROBOR_MAP_PATH ] || mkdir $MY_ROBOR_MAP_PATH
+[ -d $MY_ROBOT_MAP_PATH ] || mkdir $MY_ROBOT_MAP_PATH
