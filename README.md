@@ -42,7 +42,7 @@ Then launch the `mapping` node itself:
 ```shell
 roslaunch slamming_robot mapping.launch
 ```
-In this case the database containing the map will be saved in `$SLAM_MAP_PATH/rtabmap.db`, where `$SLAM_MAP_PATH` is an environment variable set in the scripts `set_env_var_$VERSION.$SHELL`. Its default value is `$PATH_TO_PARENT_DIR/penguin_lemma_slam/src/slamming_robot/maps`. `maps` subdirectory will be created if it doesn't exist already (when sourcing the scripts to set environment variables). That means that with Thatt default call to launch the `mapping` node, the resulting map will be stored as:
+In this case the database containing the map will be saved in `$SLAM_MAP_PATH/rtabmap.db`, where `$SLAM_MAP_PATH` is an environment variable set in the scripts `set_env_var_$VERSION.$SHELL`. Its default value is `$PATH_TO_PARENT_DIR/penguin_lemma_slam/src/slamming_robot/maps`. `maps` subdirectory will be created if it doesn't exist already (when sourcing the scripts to set environment variables). That means that with the previously stated default call to launch the `mapping` node, the resulting map will be stored as:
 ```
 $PATH_TO_PARENT_DIR/penguin_lemma_slam/src/slamming_robot/maps/rtabmap.db
 ```
@@ -65,7 +65,7 @@ You can see the final result in much more detail using `rtabmap-databaseViewer`.
 ```shell
 rtabmap-databaseViewer $PATH_TO_RESULTING_MAP
 ```
-where `$PATH_TO_RESULTING_MAP` was described in point `5`.
+where `$PATH_TO_RESULTING_MAP` corresponds to either `$SLAM_MAP_PATH/rtabmap.db` or `$YOUR_CHOSEN_DIR/rtabmap.db`, as described in point `5`.
 
 
 ## License
