@@ -36,7 +36,7 @@ roslaunch slamming_robot world.launch
 ```shell
 cd $PATH_TO_PARENT_DIR/penguin_lemma_slam
 source set_env_var_$VERSION.$SHELL
-roslaunch slamming_robot teleop.launch
+roslaunch teleop_twist_keyboard teleop.launch
 ```
 5. Launch the `mapping` node
 First setup the new terminal:
