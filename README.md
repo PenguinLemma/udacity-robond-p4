@@ -5,6 +5,12 @@ Map My World - Project 4 of the Udacity Robotics Software Engineer Nanodegree
 
 ## Description
 
+This project consists on using RTAB-Map (Real-Time Appearance-Based Mapping) as solution for SLAM inside the building created in the previous projects.
+
+The world, building and robot are those of the previous projects, with some small changes. One of them is substituting the camera in the robot by an RGB-D camera.
+
+ROS package `rtabmap_ros` (http://wiki.ros.org/rtabmap_ros) is used to interact with RTAB-Map and `teleop` to command the robot.
+
 ## Instructions
 
 1. Clone the repository
