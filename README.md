@@ -56,7 +56,7 @@ and the map will be saved in `$YOUR_CHOSEN_DIR/rtabmap.db`.
 6. Navigate the building
 Select the terminal where you launched the `teleop` node and use the keys to command the robot around. Controls were displayed in the terminal when the node was launched.
 
-Since the building is quite big, you might want to choose a small part of it. Do three cycles around that part and you should get a good map at the end!
+Since the building is quite big, you might want to choose a small part of it.
 
 7. Check the results
 You can see realtime feature detection, loop closures and other relevant information to the mapping process as you go: `RTAB-Map* [ROS]` window, as `rtabmapviz` GUI is launched with the `mapping` node).
