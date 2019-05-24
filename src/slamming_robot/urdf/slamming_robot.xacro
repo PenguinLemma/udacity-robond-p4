@@ -147,7 +147,7 @@
         </visual>
     </link>
 
-    <joint name="sensors_base_hinge" type="continuous">
+    <joint name="sensors_base_suture" type="fixed">
         <origin xyz="0 0 ${sensors_base_offset_z}" rpy="0 0 0" />
         <child link="sensors_base" />
         <parent link="base" />
@@ -183,7 +183,7 @@
     </joint>
 
     <link name="camera_link_optical"></link>
-    
+
     <joint name="camera_optical_joint" type="fixed">
         <origin xyz="0 0 0" rpy="${-pi/2} 0 ${-pi/2}"/>
         <parent link="camera"/>
